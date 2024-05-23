@@ -1,0 +1,9 @@
+/* Add application styles & imports to this file! */
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.wrapper div{
+  padding: 10px 20px;
+  border-radius: 20px;
+  background-color: #eeeded;
+}

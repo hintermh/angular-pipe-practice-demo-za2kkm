@@ -1,0 +1,9 @@
+<div>
+	<input #box type="text" (keyup.enter)="add(box.value);box.value=null" placeholder="名字"><br/>
+  <button (click)="reset()">重置</button>
+  <ul>
+    <li *ngFor="let hero of (people | canFlyNotPure)">
+     {{hero.name}}
+    </li>
+  </ul>
+</div>
